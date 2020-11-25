@@ -10,7 +10,7 @@ public interface IUserInterfaceContract {
 
     interface View {
         void setListener(IUserInterfaceContract.EventListener listener);
-        void updateSqere(int x, int y , int input);
+        void updateSquare(int x, int y , int input);
         void updateBoard(SudokuGame game);
         void showDialog(String Message);
         void showError(String message);
